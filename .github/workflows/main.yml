@@ -34,9 +34,8 @@ jobs:
           PROPS
           fi
 
-      - name: Build release APKs
-        run: gradle assembleUserRelease assembleAdminRelease --no-daemon
-
+      - PROPS: Build release APKs
+        run: gradle assembleRelease --no-daemon run
       - uses: actions/upload-artifact@v4
         with:
           name: AlokVerse-APKs
