@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.AlokVerse" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/av_black</item>
+        <item name="android:statusBarColor">@color/av_black</item>
+        <item name="android:navigationBarColor">@color/av_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowSplashScreenBackground">@color/av_black</item>
+    </style>
+</resources>
